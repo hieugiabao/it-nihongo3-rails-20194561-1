@@ -21,6 +21,16 @@
     <%= form.number_field :number_of_pages %>
   </div>
 
+  <%
+=begin%>
+  form for upload image
+<%
+=end%>
+  <div style="margin-bottom: 4px;">
+    <%= form.label :image, style: "display: block" %>
+    <%= form.file_field :image %>
+  </div>
+
   <div>
     <%= form.submit %>
   </div>
